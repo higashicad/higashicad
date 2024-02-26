@@ -17,7 +17,7 @@ function FindProxyForURL(url, host) {
         "*.nimbusweb.me",
         "*.getupnote.com",
         "*.raw.githubusercontent.com",
-        "*.inventor-navi.net",
+        "*.inventor-navi.net"
     ];
 
     // アスタリスクなしのドメインのリスト
@@ -38,7 +38,7 @@ function FindProxyForURL(url, host) {
         "nimbusweb.me",
         "getupnote.com",
         "raw.githubusercontent.com",
-        "inventor-navi.net",
+        "inventor-navi.net"
     ];
 
     // 指定されたドメインには直接接続
