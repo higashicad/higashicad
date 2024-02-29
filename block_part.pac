@@ -17,7 +17,7 @@ function FindProxyForURL(url, host) {
         "*.nimbusweb.me",
         "*.getupnote.com",
         "*.raw.githubusercontent.com",
-        "*.hellowork.mhlw.go.jp"
+        "*.hellowork.mhlw.go.jp",
         "*.inventor-navi.net"
     ];
 
@@ -39,7 +39,7 @@ function FindProxyForURL(url, host) {
         "nimbusweb.me",
         "getupnote.com",
         "raw.githubusercontent.com",
-        "hellowork.mhlw.go.jp"
+        "hellowork.mhlw.go.jp",
         "inventor-navi.net"
     ];
 
