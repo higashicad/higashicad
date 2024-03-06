@@ -8,8 +8,10 @@ Update-ExecutionPolicy Unrestricted
 Disable-GameBarTips
 
 #--- Apps ---
+choco install adobereader
 choco install freecad
 choco install jwcad
+choco install foxitreader
 choco install powertoys
 
 #--- Restore Temporary Settings ---
