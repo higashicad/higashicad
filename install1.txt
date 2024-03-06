@@ -1,1 +1,17 @@
+#---- TEMPORARY ---
+Disable-UAC
 
+#--- Fonts ---
+choco install inconsolata
+
+#--- Windows Settings ---
+Disable-GameBarTips
+
+#--- Apps ---
+choco install freecad
+choco install freecad
+
+#--- Restore Temporary Settings ---
+Enable-UAC
+Enable-MicrosoftUpdate
+Install-WindowsUpdate -acceptEula
