@@ -8,7 +8,7 @@ Update-ExecutionPolicy Unrestricted
 Disable-GameBarTips
 
 #--- Apps ---
-choco install adobereader
+choco install adobereader -params '"/DesktopIcon"'
 choco install freecad
 choco install jwcad
 choco install -y sakuraeditor --params "'/Tasks:!desktopicon,fileassoc'"
