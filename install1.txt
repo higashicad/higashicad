@@ -1,5 +1,6 @@
 #---- TEMPORARY ---
 Disable-UAC
+Update-ExecutionPolicy Unrestricted
 
 #--- Fonts ---
 choco install inconsolata
@@ -9,7 +10,7 @@ Disable-GameBarTips
 
 #--- Apps ---
 choco install freecad
-choco install freecad
+choco install powertoys
 
 #--- Restore Temporary Settings ---
 Enable-UAC
