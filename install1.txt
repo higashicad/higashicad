@@ -10,7 +10,6 @@ Disable-GameBarTips
 #--- Apps ---
 choco install adobereader -params '"/DesktopIcon"'
 choco install freecad
-choco install jwcad
 choco install -y sakuraeditor --params "'/Tasks:!desktopicon,fileassoc'"
 choco install foxitreader
 choco install powertoys
