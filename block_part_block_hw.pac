@@ -18,7 +18,8 @@ function FindProxyForURL(url, host) {
         "*.getupnote.com",
         "*.raw.githubusercontent.com",
         "*.inventor-navi.net",
-        "*.mhlw.go.jp" // 追加部分
+        "*.mhlw.go.jp", // 追加部分
+        "*.hellowork.mhlw.go.jp" // ハローワークのドメイン追加
     ];
 
     // アスタリスクなしのドメインのリスト
@@ -40,7 +41,8 @@ function FindProxyForURL(url, host) {
         "getupnote.com",
         "raw.githubusercontent.com",
         "inventor-navi.net",
-        "mhlw.go.jp" // 追加部分
+        "mhlw.go.jp", // 追加部分
+        "hellowork.mhlw.go.jp" // ハローワークのドメイン追加
     ];
 
     // 指定されたドメインには直接接続
