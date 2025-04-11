@@ -45,6 +45,18 @@ function FindProxyForURL(url, host) {
         "hellowork.mhlw.go.jp" // ハローワークのドメイン追加
     ];
 
+    // 指定されたIPアドレス（LAN内サーバー）への直接接続
+    var directIPs = [
+        "192.168.11.173" // 追加部分
+    ];
+
+    // 指定されたIPアドレスには直接接続
+    for (var k = 0; k < directIPs.length; k++) {
+        if (isInNet(host, directIPs[k], "255.255.255.255")) {
+            return "DIRECT";
+        }
+    }
+
     // 指定されたドメインには直接接続
     for (var i = 0; i < wildcardDomains.length; i++) {
         if (shExpMatch(host, wildcardDomains[i])) {
